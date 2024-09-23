@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "awesome-research"
+version = "0.1.0"
+description = "Extra awesome research coming out"
+authors = ["Nentropy <nen@orionai.dev>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Jinja2 = "^3.1.4"
+python-dotenv = "^1.0.1"
+pypdf2 = "^3.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
